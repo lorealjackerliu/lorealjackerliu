@@ -19,11 +19,10 @@ jobs:
     runs-on: ubuntu-latest
     environment: prd
     env:
-      host: ${{ secrets.DEPLOYMENT_TARGET_URL }}
+      DATABRICKS_HOST: ${{ secrets.DEPLOYMENT_TARGET_URL }}
       #DATABRICKS_TOKEN:  ${{ secrets.DEPLOYMENT_TARGET_TOKEN }}
-      azure_client_id: ${{ secrets.DEPLOYMENT_APPLICATION_ID }}
-      azure_client_secret: ${{ secrets.DEPLOYMENT_CLIENT_SECRET }}
-      azure_tenant_id: ${{ secrets.DEPLOYMENT_TENANT_ID }}
+      DATABRICKS_CLIENT_ID: ${{ secrets.DEPLOYMENT_APPLICATION_ID }}
+      DATABRICKS_CLIENT_SECRET: ${{ secrets.DEPLOYMENT_CLIENT_SECRET }}
       REPO_PATH: /Workspace/Users/jacker@dairyqueen.partner.onmschina.cn/lorealjackerliu/
       DBFS_LIB_PATH: dbfs:/path/to/libraries/
       LATEST_WHEEL_NAME: latest_wheel_name.whl
