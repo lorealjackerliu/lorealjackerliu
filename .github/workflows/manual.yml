@@ -21,9 +21,9 @@ jobs:
     env:
       DATABRICKS_HOST: ${{ secrets.DEPLOYMENT_TARGET_URL }}
       #DATABRICKS_TOKEN:  ${{ secrets.DEPLOYMENT_TARGET_TOKEN }}
-      AZURE_SP_APPLICATION_ID: ${{ secrets.DEPLOYMENT_APPLICATION_ID }}
-      AZURE_SP_CLIENT_SECRET: ${{ secrets.DEPLOYMENT_CLIENT_SECRET }}
-      AZURE_SP_TENANT_ID: ${{ secrets.DEPLOYMENT_TENANT_ID }}
+      ARM_APPLICATION_ID: ${{ secrets.DEPLOYMENT_APPLICATION_ID }}
+      ARM_CLIENT_SECRET: ${{ secrets.DEPLOYMENT_CLIENT_SECRET }}
+      ARM_TENANT_ID: ${{ secrets.DEPLOYMENT_TENANT_ID }}
       REPO_PATH: /Workspace/Users/jacker@dairyqueen.partner.onmschina.cn/lorealjackerliu/
       DBFS_LIB_PATH: dbfs:/path/to/libraries/
       LATEST_WHEEL_NAME: latest_wheel_name.whl
