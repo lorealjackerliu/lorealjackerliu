@@ -1,2 +1,2 @@
 -- Databricks notebook source
-select '100'
+select '1000'
