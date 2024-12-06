@@ -22,7 +22,7 @@ jobs:
     env:
       DATABRICKS_HOST: https://adb-3067494773813369.1.databricks.azure.cn
       DATABRICKS_TOKEN:  dapif389394553488f1356d063d2faf173dd
-      REPO_PATH: /Workspace/Users/someone@example.com/workspace-builder
+      REPO_PATH: Workspace/Users/jacker@dairyqueen.partner.onmschina.cn/lorealjackerliu/
       DBFS_LIB_PATH: dbfs:/path/to/libraries/
       LATEST_WHEEL_NAME: latest_wheel_name.whl
 
