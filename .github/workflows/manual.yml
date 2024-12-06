@@ -3,14 +3,13 @@
 name: CI
 
 # Controls when the workflow will run
-on: main
-
+on: 
   push:
     paths-ignore:
       - .github
     branches:
       # Set your base branch name here
-      - your-base-branch-name
+      - main
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
