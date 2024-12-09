@@ -24,7 +24,7 @@ jobs:
       #DATABRICKS_CLIENT_ID: ${{ secrets.DEPLOYMENT_APPLICATION_ID }}
       #DATABRICKS_CLIENT_SECRET: ${{ secrets.DEPLOYMENT_CLIENT_SECRET }}
       DATABRICKS_CLIENT_ID: a45b6b9a-8750-43cc-b8a4-8424e2f66a95
-      DATABRICKS_CLIENT_SECRET: ~g8qfd_5I0Ph75jzboi_9jCA6.r20.DC5b
+      DATABRICKS_CLIENT_SECRET: dose5e4c2fbd25d6eb345a3fb639f2505fb5
       REPO_PATH: /Workspace/Users/jacker@dairyqueen.partner.onmschina.cn/lorealjackerliu/
       DBFS_LIB_PATH: dbfs:/path/to/libraries/
       LATEST_WHEEL_NAME: latest_wheel_name.whl
