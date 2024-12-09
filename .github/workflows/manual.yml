@@ -20,7 +20,6 @@ jobs:
     environment: prd
     env:
       DATABRICKS_HOST: ${{ secrets.DEPLOYMENT_TARGET_URL }}
-      #DATABRICKS_TOKEN:  ${{ secrets.DEPLOYMENT_TARGET_TOKEN }}
       DATABRICKS_CLIENT_ID: ${{ secrets.DEPLOYMENT_APPLICATION_ID }}
       DATABRICKS_CLIENT_SECRET: ${{ secrets.DEPLOYMENT_CLIENT_SECRET }}
       REPO_PATH: /Workspace/Users/jacker@dairyqueen.partner.onmschina.cn/lorealjackerliu/
