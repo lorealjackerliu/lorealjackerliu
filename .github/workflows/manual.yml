@@ -23,9 +23,8 @@ jobs:
       #DATABRICKS_TOKEN: dapif389394553488f1356d063d2faf173dd
       #DATABRICKS_CLIENT_ID: ${{ secrets.DEPLOYMENT_APPLICATION_ID }}
       #DATABRICKS_CLIENT_SECRET: ${{ secrets.DEPLOYMENT_CLIENT_SECRET }}
-      AZURE_SP_APPLICATION_ID: a45b6b9a-8750-43cc-b8a4-8424e2f66a95
-      AZURE_SP_TENANT_ID: 2df3f96f-ab4d-4221-9858-9b60b2be967e
-      AZURE_SP_CLIENT_SECRET: ~g8qfd_5I0Ph75jzboi_9jCA6.r20.DC5b
+      DATABRICKS_CLIENT_ID: a45b6b9a-8750-43cc-b8a4-8424e2f66a95
+      DATABRICKS_CLIENT_SECRET: ~g8qfd_5I0Ph75jzboi_9jCA6.r20.DC5b
       REPO_PATH: /Workspace/Users/jacker@dairyqueen.partner.onmschina.cn/lorealjackerliu/
       DBFS_LIB_PATH: dbfs:/path/to/libraries/
       LATEST_WHEEL_NAME: latest_wheel_name.whl
