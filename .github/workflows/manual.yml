@@ -20,12 +20,12 @@ jobs:
     environment: prd
     env:
       DATABRICKS_HOST: ${{ secrets.DEPLOYMENT_TARGET_URL }}
-      DATABRICKS_ACCESS_TOKEN: dapif389394553488f1356d063d2faf173dd
+      DATABRICKS_TOKEN: dapif389394553488f1356d063d2faf173dd
       #DATABRICKS_CLIENT_ID: ${{ secrets.DEPLOYMENT_APPLICATION_ID }}
       #DATABRICKS_CLIENT_SECRET: ${{ secrets.DEPLOYMENT_CLIENT_SECRET }}
       REPO_PATH: /Workspace/Users/jacker@dairyqueen.partner.onmschina.cn/lorealjackerliu/
-      # DBFS_LIB_PATH: dbfs:/path/to/libraries/
-      # LATEST_WHEEL_NAME: latest_wheel_name.whl
+      DBFS_LIB_PATH: dbfs:/path/to/libraries/
+      LATEST_WHEEL_NAME: latest_wheel_name.whl
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
