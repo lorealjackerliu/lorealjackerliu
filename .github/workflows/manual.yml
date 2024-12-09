@@ -23,8 +23,8 @@ jobs:
       DATABRICKS_CLIENT_ID: ${{ secrets.DEPLOYMENT_APPLICATION_ID }}
       DATABRICKS_CLIENT_SECRET: ${{ secrets.DEPLOYMENT_CLIENT_SECRET }}
       REPO_PATH: /Workspace/Users/jacker@dairyqueen.partner.onmschina.cn/lorealjackerliu/
-      DBFS_LIB_PATH: dbfs:/path/to/libraries/
-      LATEST_WHEEL_NAME: latest_wheel_name.whl
+      # DBFS_LIB_PATH: dbfs:/path/to/libraries/
+      # LATEST_WHEEL_NAME: latest_wheel_name.whl
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
