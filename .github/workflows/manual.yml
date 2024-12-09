@@ -20,11 +20,9 @@ jobs:
     environment: prd
     env:
       DATABRICKS_HOST: ${{ secrets.DEPLOYMENT_TARGET_URL }}
-      #DATABRICKS_TOKEN: dapif389394553488f1356d063d2faf173dd
+      DATABRICKS_TOKEN: dapif389394553488f1356d063d2faf173dd
       #DATABRICKS_CLIENT_ID: ${{ secrets.DEPLOYMENT_APPLICATION_ID }}
       #DATABRICKS_CLIENT_SECRET: ${{ secrets.DEPLOYMENT_CLIENT_SECRET }}
-      DATABRICKS_CLIENT_ID: a45b6b9a-8750-43cc-b8a4-8424e2f66a95
-      DATABRICKS_CLIENT_SECRET: dose9db16f2fbce79019184a6fa65ba431fb
       REPO_PATH: /Workspace/Users/jacker@dairyqueen.partner.onmschina.cn/lorealjackerliu/
       DBFS_LIB_PATH: dbfs:/path/to/libraries/
       LATEST_WHEEL_NAME: latest_wheel_name.whl
