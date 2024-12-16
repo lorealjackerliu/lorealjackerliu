@@ -50,7 +50,6 @@ jobs:
         # creds: '{"clientId":"${{ secrets.AZURE_CLIENT_ID }}","clientSecret":"${{ secrets.AZURE_CLIENT_SECRET }}","subscriptionId":"${{ secrets.AZURE_SUBSCRIPTION_ID }}","tenantId":"${{ secrets.AZURE_TENANT_ID }}"}'
         creds: ${{ secrets.AZURE_CREDENTIALS }}
         environment: AzureChinaCloud
-        subscription-id: 150856cf-3788-4c44-bdcc-2fba98f21caf
         allow-no-subscriptions: true
         enable-AzPSSession: false
     - name: Azure CLI script
